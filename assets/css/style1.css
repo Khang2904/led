@@ -1,0 +1,272 @@
+/* RESRT CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+#main{
+
+}
+
+#header{
+    background-color: #000;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#nav {
+    display: inline-block;
+
+}
+
+#nav, .subnav{
+    list-style-type: none;
+}
+
+#nav .nav-arrow-down {
+    font-size: 14px;
+}
+
+#nav .iconfb {
+    color: rgb(20, 67, 138);
+    font-size: 16px;
+    padding-left: -50px;
+}
+
+
+#header .search-btn {
+    float: right;
+    padding : 0 24px;
+}
+
+#header .search-btn:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+#header .search-icon {
+    color: #fff;
+    font-size: 25px;
+    line-height: 90px;
+}
+
+#header .logo-icon {
+    float: right;
+    line-height: 113px;
+    margin-right: 18px; 
+}
+
+#header .logo-img {
+    max-width: 150px;
+}
+
+#nav > li {
+    display: inline-block;
+}
+
+#nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#nav > li > a {
+    color: #fff;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav li a {
+    text-decoration: none;
+    line-height: 90px;
+    font-weight: 550;
+    font-size: 20px;
+    padding: 0 18px;
+    display: block;
+} 
+
+#nav > li:hover > a {
+    color: #F7931E;
+} 
+
+#nav .subnav li:hover {
+    color: #000;
+    background-color: #ccc;
+    display: block;
+}
+
+#nav .subnav{
+    display: none;
+    background-color: #fff;
+    top: 100%;
+    left: 0;
+    position: absolute;
+    min-width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+#nav  .subnav  a {
+    color:#000;
+    line-height: 55px;
+    padding: 0 24px;
+    font-size: 19px;
+}
+
+#nav .subnav li:hover a {
+    color:#F7931E;
+}
+
+#slider{
+    margin-top: 90px;
+    padding-top: 50%;
+    background: url('/assets/img/slider/slider5.jpg') top center / cover no-repeat;
+    position: relative;
+}
+
+#slider .text-content {
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+#slider .text-heading {
+    margin-bottom: 20px;
+}
+
+#slider .text_description {
+    font-size: 20px;
+}
+
+#content{
+    background-color:#000;
+
+}
+
+#content .content-section {
+    max-width: 55%;
+    padding: 46px 0;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+#content .member-img {
+    width: 374px;
+    margin-left: 800px;
+}
+
+#content .content-section-heading {
+    padding: 10px 0;
+    font-size: 15px;
+    color: #FF8C00;
+}
+
+#content .content-section-sub-heading {
+    padding: 10px 0;
+    font-size: 13px;
+    color: #FF8C00;
+}
+
+#content .about-text {
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+#content .content-img {
+    float: right;
+}
+
+#content .introduce-img {
+    max-width: 250px;
+    margin-right: 35px;
+    margin-top: 41%;
+}
+
+#content .content-link:hover {
+    color: rgb(18, 163, 247);
+    background-color: #ccc;
+    padding: 4px;
+}
+
+#content .content-hotline {
+    font-size: 14px;
+    padding: 4px 0;
+}
+
+#content .content-sub-hotline {
+    color: #f44336;
+    text-decoration: none;
+}
+
+#content .content-product::after {
+    content: "";
+    display: block;
+    clear: both;
+    
+}
+
+#content .content-text-heading {
+    font-weight: 400;
+    text-align: center;
+    background-color: #F7931E;
+    padding: 4px;
+}
+
+.place-name-product {
+    text-align: center;
+    font-weight: 600;
+    color: #F7931E;
+    text-shadow: 0 0 0.5px #000;
+}
+
+.place-body {
+    background-color: #fff;
+    padding: 8px 16px 0;
+}
+
+#content .place-item {
+    float: left;
+    padding: 0 8px;
+    width: 33.33333%;
+}
+
+.place-img {
+    width: 100%;
+    display: block;
+}
+
+.place-contact {
+    margin: 16px 0;
+    background-color: #000;
+    border: none;
+    padding: 8px 19px;
+    font-size: 15px;
+}
+
+.place-contact a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer{
+
+}
